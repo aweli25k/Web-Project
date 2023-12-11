@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+body {
+    width: 800px;
+    margin: 0 auto;
+	background-image: url(bacground.png);
+}
+
+nav {
+    width: 100%; /* Change to 100% to take the full width */
+    height: 30px;
+    padding: 10px 0;
+    text-align: center; /* Center the navigation items */
+}
+
+header {
+    width: 100%; /* Change to 100% to take the full width */
+    min-height: 350px;
+    padding: 0 10px;
+    background: rgba(0, 0, 0, 1.00);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    text-align: center; /* Center the header content */
+}
+
+header img {
+    margin: 10px;
+    max-width: 100%; /* Make sure the image doesn't exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+
+}
+
+footer {
+    width: 100%; /* Change to 100% to take the full width */
+    padding: 10px;
+    text-align: center; /* Center the footer content */
+    clear: both;
+}
+
+/* Apply styles to the individual elements within the main-text section */
+.main-text h2, .main-text h3, .main-text p {
+    color: white; /* Set the color for h2, h3, and p */
+    display: inline-block;
+    width: auto;
+    height: auto;
+    vertical-align: middle; /* Align text and images vertically */
+}
+
+.main-text {
+    max-width: 800px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 20px; /* Add some padding to the content */
+    display: inline-block;
+    width: auto;
+    height: auto;
+    font-size: 1.17em; /* Set font size for the entire section */
+}
+
+.main-text img {
+    width: 1.17em; /* Set the width equal to font size */
+    height: 1.17em; /* Set the height equal to font size */
+    max-width: 100%; /* Ensure images don't exceed their natural size */
+    height: auto; /* Maintain aspect ratio */
+    display: inline-block; /* Align images with the text */
+    margin: 0 10px 20px 0; /* Add spacing around the image */
+}
+
+/* Apply styles to the footer button */
+.main-text button {
+    background-color: black;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px; /* Add spacing between the last paragraph and the button */
+}
+
+/* Adjust styles for the aside element */
+.grid-item4 {
+    grid-column: 1 / span 3;
+    text-align: center;
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: bold;
+    padding: 2%;
+    background-color: rgba(204, 204, 204, 0.5);
+    box-shadow: 5px 5px 8px #000;
+    text-shadow: 5px 5px 5px #b3b3b3;
+    border-radius: 0 15px;
+}
+
+/* Optional: Add styles for the footer */
+.footer-bkg {
+    background-image : url(footer-bkg.png);
+	background-repeat : no-repeat;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    width: 100%; /* Change to 100% to take the full width */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the navigation items */
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline; /* Change to inline to have the list items in a row */
+    margin-right: 20px; /* Adjust margin as needed */
+}
+
+h1 {
+    font-weight: normal;
+    margin: 10px 0 15px 0;
+    text-align: center; /* Center the heading */
+}

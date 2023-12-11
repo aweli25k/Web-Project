@@ -1,0 +1,96 @@
+@charset "utf-8";
+	.nav2
+{
+	font-family : ATC Onyx;
+	font-size : 21px;
+	line-height : 34px;
+	letter-spacing : 1.05px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+	text-shadow : 0px 2px 1px rgba(0, 0, 0, 0.75);
+}
+.nav3
+{
+	font-family : ATC Onyx;
+	font-size : 21px;
+	line-height : 34px;
+	letter-spacing : 1.05px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+	text-shadow : 0px 2px 1px rgba(0, 0, 0, 0.75);
+}
+.nav1
+{
+	font-family : ATC Onyx;
+	font-size : 21px;
+	line-height : 34px;
+	letter-spacing : 1.05px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+	text-shadow : 0px 2px 1px rgba(0, 0, 0, 0.75);
+}
+footer
+{
+	font-family : ATC Onyx;
+	font-size : 9px;
+	line-height : 19.37px;
+	color : #B9BABA;
+	color : rgb(185, 186, 186);
+}
+h1
+{
+	font-family : ATC Onyx;
+	font-size : 32px;
+	line-height : 22.05px;
+	color : #D6000C;
+	color : rgb(214, 0, 12);
+}
+.nav-bkg
+{
+	background : #D6000C;
+	background : rgba(214, 0, 12, 1);
+}
+p
+{
+	font-family : ATC Onyx;
+	font-size : 12px;
+	line-height : 20px;
+	color : white;
+}
+
+.main-text {
+	font-family : Myriad Pro;
+	font-size : 12px;
+	color : white;
+}
+
+}
+.footer-bkg
+{
+	background-image : url(footer-bkg.png);
+	background-repeat : no-repeat;
+}
+.gv-logo
+{
+	background-image : url(college-logo.png);
+	background-repeat : no-repeat;
+}
+nav
+{
+	font-family : ATC Onyx;
+	font-size : 21px;
+	line-height : 34px;
+	letter-spacing : 1.05px;
+	color : #FFFFFF;
+	color : rgb(255, 255, 255);
+	text-shadow : 0px 2px 1px rgba(0, 0, 0, 0.75);
+}
+body
+{
+	background-image: url(background.svg);
+}
+.home-feature
+{
+	background-image : url(home-feature.png);
+	background-repeat : no-repeat;
+}
